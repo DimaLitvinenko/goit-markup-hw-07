@@ -1,0 +1,20 @@
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+  color: #000000;
+}
+
+.page-nav__logo {
+  margin-right: 93px;
+}
+
+.animate__rubberBand {
+  animation-duration: 600ms;
+}
+
+.logo__web {
+  color: var(--accent-color);
+}
