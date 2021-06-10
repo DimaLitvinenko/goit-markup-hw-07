@@ -18,10 +18,10 @@ img {
 }
 
 body {
-  color: var(--primary-text-color);
-  background: var(--primary-white-color);
+  color: $primary-text-color;
+  background: $primary-white-color;
 
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-weight: normal;
   font-style: normal;
   letter-spacing: 0.03em;

@@ -1,12 +1,13 @@
 .benefits-list {
   display: flex;
 }
-.benefits-list__item:not(:last-child) {
-  margin-right: 30px;
-}
 
 .benefits-list__item {
   flex-basis: 270px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .benefits-list__container {
@@ -16,18 +17,15 @@
   height: 120px;
   margin-bottom: 30px;
 
-  background-color: var(--secondary-color);
+  background-color: $secondary-color;
   border-radius: 4px;
 }
 
 .benefits-list__title {
   margin-bottom: 10px;
-
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.1;
+  @include title-font($lh: 1.14);
   text-transform: uppercase;
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 
 .benefits-list__text {
